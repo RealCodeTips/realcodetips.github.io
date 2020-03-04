@@ -51,8 +51,8 @@ two_columns_layout: true
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://codetips.co.uk" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+url: "https://www.codetips.co.uk" # the base hostname & protocol for your site
+google_analytics: "UA-136690485-1"
 language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
