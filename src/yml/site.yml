@@ -1,21 +1,30 @@
-name: Diego
-title: Coflow
-description: Diegofornalha
+name: Code Tips
+title: Code Tips | Learn to code using short, easy to understand, articles
+description: Learn to code using short, easy to understand, articles
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
-show_hero: true
+        - coding
+        - development
+        - learning
+show_hero: false
 menu:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
-email: youremail@xyz.com
-disqus_username: disqus_username
+        - title: Home
+          url: /
+        - title: About
+          url: /about
+        - title: Contact
+          url: /contact
+        - title: Feed
+          url: /feed.xml
+email: realcodetips@gmail.com
+show_time_bar: false
+show_modal_on_exit: false
+show_modal_on_finish_post: false
+two_columns_layout: true
+disqus_username: codetips-1
+
+favicon: assets/favicon.png
+logo: assets/logo.png
+
+#paginate: 12
+
+show_get_theme_btn: false
