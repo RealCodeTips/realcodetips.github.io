@@ -5,7 +5,7 @@ draft: false
 author: "Simon Drake"
 
 # post thumbnail
-image: "assets/images/post/what_is_pseudocode.jpg"
+image: "/assets/images/post/what_is_pseudocode.jpg"
 
 # meta description
 description: "Pseudocode is used when you are trying to explain implementation details without the constraints of making it syntactically correct."

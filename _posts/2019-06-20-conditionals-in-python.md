@@ -5,7 +5,7 @@ draft: false
 author: "Jordan Gregory" 
 
 # post thumbnail
-image: "assets/images/post/conditionals_in_python.jpg"
+image: "/assets/images/post/conditionals_in_python.jpg"
 
 # meta description
 description: "In this article we're going to extend our programme to act differently depending on the age variable."

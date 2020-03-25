@@ -2,10 +2,10 @@
 title: "What is a variable?"
 date: 2019-03-16T08:55:00Z
 draft: false
-author: "Simon Drake"
+author: simondrake
 
 # post thumbnail
-image: "assets/images/post/what_is_a_variable.jpg"
+image: "/assets/images/post/what_is_a_variable.jpg"
 
 # meta description
 description: "Variables are used to store information once, referenced by an alias, and used multiple times throughout the code; reducing duplication."
