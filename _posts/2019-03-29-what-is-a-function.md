@@ -2,7 +2,7 @@
 title: "What is a function?"
 date: 2019-03-29T08:44:00Z
 draft: false
-authors: ["Simon Drake", "Michel Engelen"]
+author: "Simon Drake"
 
 # post thumbnail
 image: "/assets/images/post/what_is_a_function.jpg"

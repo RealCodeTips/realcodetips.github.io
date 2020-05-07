@@ -2,7 +2,7 @@
 title: "What are arrays?"
 date: 2019-03-25T18:10:00Z
 draft: false
-authors: ["Simon Drake", "Michel Engelen"]
+author: "Simon Drake"
 
 # post thumbnail
 image: "/assets/images/post/what_are_arrays.jpg"

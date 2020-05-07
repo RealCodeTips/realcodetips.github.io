@@ -2,7 +2,7 @@
 title: "What is a variable?"
 date: 2019-03-16T08:55:00Z
 draft: false
-author: "Simon Drake"
+author: simondrake
 
 # post thumbnail
 image: "/assets/images/post/what_is_a_variable.jpg"
