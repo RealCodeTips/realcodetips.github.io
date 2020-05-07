@@ -5,7 +5,7 @@ draft: false
 author: "Michael Engelen"
 
 # post thumbnail
-image: "assets/images/post/what_is_an_if_statement.jpg"
+image: "/assets/images/post/what_is_an_if_statement.jpg"
 
 # meta description
 description: "Variables are used to store information once, referenced by an alias, and used multiple times throughout the code; reducing duplication."

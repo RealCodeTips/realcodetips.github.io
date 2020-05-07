@@ -5,7 +5,7 @@ draft: false
 author: "Simon Drake"
 
 # post thumbnail
-image: "assets/images/post/what_is_version_control.jpg"
+image: "/assets/images/post/what_is_version_control.jpg"
 
 # meta description
 description: "Version Control helps you keep track of your data and allows you to revert back to a previous point in time"

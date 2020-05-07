@@ -5,7 +5,7 @@ draft: false
 author: "Michel Engelen"
 
 # post thumbnail
-image: "assets/images/post/what_is_a_data_type.jpg"
+image: "/assets/images/post/what_is_a_data_type.jpg"
 
 # meta description
 description: "Bits of information always have a certain type in programming. Here we explain what those types are."

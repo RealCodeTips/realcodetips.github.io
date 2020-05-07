@@ -34,7 +34,7 @@ You were asked to complete two challenges at the end of the "writing your first 
 
 To complete the second challenge, you should have ended up with something like the following:
 
-```JavaScript
+```js
 const name = "Simon"
 const age = 29
 const profession = "Developer"
@@ -54,7 +54,7 @@ In this article, we’re going to extend our programme and have it print out all
 
 I have three main hobbies, so the obvious thing is to create three new variables just like we did with our `name`, `age` etc variables.
 
-```JavaScript
+```js
 const name = "Simon"
 const age = 29
 const profession = "Developer"
@@ -97,7 +97,7 @@ We’ve added a second `console.log` statement, which prints our hobbies.
 
 That’s all we wanted to do in this article so we’re done, right? Nope! While this may look acceptable for three hobbies, what if we had ten?
 
-```JavaScript
+```js
 const name = "Simon"
 const age = 29
 const profession = "Developer"
@@ -138,7 +138,7 @@ In JavaScript, arrays can contain any combination of [types](https://www.codetip
 
 **Note:**  multi-type arrays, like `mixedArr` in the below example, can lead to unforeseen circumstances if you think you are dealing with one type, but are dealing with another, so apply extra caution if you need to use them.
 
-```JavaScript
+```js
 const stringArr = ['string1', 'string2', 'string3']
 const intArr = [1, 2, 3]
 const boolArr = [true, false, false]
@@ -154,7 +154,7 @@ Before we continue with the article, try to complete the following challenges:
 
 Done? Excellent, well done. You should have ended up with something pretty similar to this:
 
-```JavaScript
+```js
 const name = "Simon"
 const age = 29
 const profession = "Developer"
@@ -199,7 +199,7 @@ Remember from the “[what are arrays](http://localhost:2369/what-are-arrays/)�
 
 JavaScript array indexing start at 0, so our hobbies array could be represented like so:
 
-```JavaScript
+```js
 index = [    0    ,    1     ,       2      , ...]
 array = [ "Coding", "Walking", "Watching TV", ...]
 
@@ -207,7 +207,7 @@ array = [ "Coding", "Walking", "Watching TV", ...]
 
 So we could log each of our hobbies on different lines by targeting the respective indexes.
 
-```JavaScript
+```js
 const name = "Simon"
 const age = 29
 const profession = "Developer"
@@ -255,7 +255,7 @@ If we wanted to log the numbers 1-10 we could write 10 different `console.log` s
 3. The `final-expression`. An expression to be evaluated at the end of each loop iteration. This occurs before the next evaluation of the condition. We simply increment the value of `i` (e.g. if the value of `i` is 5, running `i++` would increment it and it would now be 6).
 4. The `statement`. A statement that is executed as long as the `condition` expression evaluates to true. We use this to log out the value of `i` to the screen.
 
-```JavaScript
+```js
 for (let i = 1; i <= 10; i++) {
   console.log(i)
 }
@@ -270,7 +270,7 @@ We can now use this new technique to print our hobbies. In the following example
 4. We define our `final-expression`, in which we increment the value of `i` (`i++`) as we did in the previous example.
 5. We then print each element of our hobbies array, using the element indexes.
 
-```JavaScript
+```js
 const name = "Simon"
 const age = 29
 const profession = "Developer"
@@ -300,7 +300,7 @@ But why should it be less than the length (`i < hobbies.length`, and not less th
 
 Let’s go back to our array representation from earlier:
 
-```JavaScript
+```js
 index = [    0    ,    1     ,       2       ]
 array = [ "Coding", "Walking", "Watching TV" ]
 
@@ -314,7 +314,7 @@ So, if we declared our `condition` expression as less than or equal to the lengt
 
 If we run our programme now, we’ll see the following output:
 
-```JavaScript
+```js
 $ node index.js
 
 Welcome to my first JavaScript programme. 

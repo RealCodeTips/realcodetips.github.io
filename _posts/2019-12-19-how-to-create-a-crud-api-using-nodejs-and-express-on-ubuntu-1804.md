@@ -104,7 +104,7 @@ In this step we’ll take our API and have it return some useful data. We’ll b
 
 First, let's add another endpoint to our application that will retrieve a record.
 
-```javascript
+```js
 const express = require('express')
 const app = express()
 const port = 3000
@@ -173,7 +173,7 @@ const employees = {
 
 Now, instead of logging out the `id` parameter value, let's return the employee details from our Object:
 
-```javascript
+```js
 app.get('/employee/:id', (req, res) => {
   res.json(employees[req.params.id])
 })
@@ -197,7 +197,7 @@ Now, try changing the `id` to something non-existent (e.g. `http://localhost:300
 
 Let's update the endpoint to check if the given employee `id` exists and, if not, we'll return a `404 Not Found` response, otherwise we'll return the employee details.
 
-```javascript
+```js
 app.get('/employee/:id', (req, res) => {
   const employee = employees[req.params.id]
 
@@ -222,7 +222,7 @@ Let’s focus on people joining the company first. When someone joins, we want t
 
 To do this we will use a `POST` request, which we declare in the same way as our `GET` requests above.
 
-```javascript
+```js
 app.post('/employee', (req, res) => {
   res.sendStatus(200)
 })

@@ -39,7 +39,7 @@ In the following example:
 * `y` is assigned the value `true` and has an inferred type of `boolean`.
 * `a` is assigned the value `1` and has an inferred type of `number`.
 
-```JavaScript
+```js
 var x = "Hello World"
 
 const y = true
@@ -59,7 +59,7 @@ Create a new directory, in a location of your choice, called `firstApplication`,
 
 In your new `firstApplication` directory, create a new file called `index.js`, add the below code into it, and save the file.
 
-```JavaScript
+```js
 console.log("Welcome to my first JavaScript programme")
 ```
 
@@ -82,7 +82,7 @@ As you can see, the `console.log` function outputs text to the terminal. Unfortu
 
 Replace the contents of `index.js` with the following code:
 
-```JavaScript
+```js
 const name = "Simon"
 const age = 29
 const profession = "Developer"
@@ -102,7 +102,7 @@ The significance of the letter after the percent (`%`) sign, is it defines the t
 
 Another way to write this is to use something called a template literal:
 
-```JavaScript
+```js
 console.log(`Welcome to my first JavaScript programme. My name is ${name}. I am ${age} years old. I work as a ${profession}.`)
 
 ```

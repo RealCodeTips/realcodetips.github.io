@@ -5,7 +5,7 @@ draft: false
 author: "Simon Drake"
 
 # post thumbnail
-image: "assets/images/post/what_is_a_variable.jpg"
+image: "/assets/images/post/what_is_a_variable.jpg"
 
 # meta description
 description: "Variables are used to store information once, referenced by an alias, and used multiple times throughout the code; reducing duplication."

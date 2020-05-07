@@ -5,7 +5,7 @@ draft: false
 author: "Simon Drake"
 
 # post thumbnail
-image: "assets/images/post/what_is_an_else_statement.jpg"
+image: "/assets/images/post/what_is_an_else_statement.jpg"
 
 # meta description
 description: "An else statement is a block of code to run when a condition is not met. The condition is first defined in an if statement."

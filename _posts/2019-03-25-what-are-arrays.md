@@ -5,7 +5,7 @@ draft: false
 authors: ["Simon Drake", "Michel Engelen"]
 
 # post thumbnail
-image: "assets/images/post/what_are_arrays.jpg"
+image: "/assets/images/post/what_are_arrays.jpg"
 
 # meta description
 description: "Arrays are collections of data and can hold any data-type permitted by the language."

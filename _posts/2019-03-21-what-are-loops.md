@@ -5,7 +5,7 @@ draft: false
 author: "Simon Drake"
 
 # post thumbnail
-image: "assets/images/post/what_are_loops.jpg"
+image: "/assets/images/post/what_are_loops.jpg"
 
 # meta description
 description: "Loops are a programming construct to perform a set task, or group of tasks until a given condition is met."
