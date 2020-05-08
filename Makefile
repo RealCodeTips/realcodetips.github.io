@@ -11,6 +11,6 @@ build:
 run:
 	gulp
 
-.PHONY: drafts
-drafts:
-	bundle exec jekyll serve --drafts
+.PHONY: serve-drafts
+serve-drafts:
+	bundle exec jekyll server --drafts

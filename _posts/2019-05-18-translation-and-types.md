@@ -119,7 +119,7 @@ Every programming language has [data-types](https://codetips.co.uk/beginner/what
 
 Imagine we're writing a [function](https://codetips.co.uk/beginner/what-is-a-function/) that will take two inputs; subtracting one from the other.
 
-```javascript
+```js
 subtract(input1, input2) {
 	input1 - input2    
 }
@@ -129,7 +129,7 @@ subtract(input1, input2) {
 
 Note I said inputs, instead of numbers. Technically, we could pass anything through to this function
 
-```javascript
+```js
 subtract(5,3) // 2
 subtract(19,40) // -21
 subtract(9,3) // 6
@@ -151,7 +151,7 @@ A dynamically typed language will check for these errors on the fly, during exec
 
 Let's look at an example. The following is the start of our application; we've declared two [functions](https://codetips.co.uk/beginner/what-is-a-function/), one with the same subtraction error we discussed earlier, and the other with a completely valid subtraction.
 
-```javascript
+```js
 subtractionWithError() {
     "hello" - "world"
 }
@@ -173,7 +173,7 @@ If you were using a dynamically typed language, an error would never be thrown b
 
 What if our code called the `validSubtraction` function, waited for 4 hours, and then called the `subtractionWithError` function?
 
-```javascript
+```js
 subtractionWithError() {
     "hello" - "world"
 }
@@ -224,7 +224,7 @@ func example(input1 int, input2 int) {
 
 A weakly-typed language is one where the [data-type](https://codetips.co.uk/beginner/what-is-a-data-type/) is determined by what is given to it.
 
-```javascript
+```js
 var x = "Hello World"
 
 func example(input1, input2) {
@@ -238,7 +238,7 @@ Strict typing will help you avoid errors, like the one we saw earlier when tryin
 
 Weak typing allows you to have more flexibility in what you can do. The most strictly typed languages won't allow you to add an integer to a floating point number, whereas a weakly typed language would allow you to add a string and an integer.
 
-```javascript
+```js
 6 + "5" // 65
 ```
 
