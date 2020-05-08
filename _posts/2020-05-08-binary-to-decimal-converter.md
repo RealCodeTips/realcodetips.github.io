@@ -1,7 +1,6 @@
 ---
-title: "Create a binary to decimal converter"
-# date: 2019-03-16T08:55:00Z
-draft: true
+title: "Binary to decimal converter"
+date: 2020-05-08T08:00:00Z
 author: "Simon Drake"
 
 # post thumbnail
