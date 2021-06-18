@@ -36,7 +36,7 @@ To get started, sign-up for Digital Ocean using [this](https://m.do.co/c/5a7b875
 
 ## Prerequisites
 
-* An Ubuntu 18.04 server setup, as described in the [initial server setup guide for Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04). You should have a non-root user with sudo privileges and an active firewall.
+* An Ubuntu 18.04 server setup, as described in the [initial server setup guide for Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04). You should have a non-root user with sudo privileges and an active firewall. Use [this](https://m.do.co/c/5a7b87513ab0) referral link to get $100 Digital Ocean credit.
 * Node.js and PM2 installed on your Ubuntu 18.04 server, as described in [How To Set Up a Node.js Application for Production on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-18-04).
 * A basic understanding of CURL
 
@@ -384,7 +384,7 @@ In this step we really took our API to the next level, by allowing our users to 
 
 We now have an API that can create, delete and retrieve an employee. What we’ve done so far is awesome, but it only lives on our laptop. To take our application to the next level, we need to host it on a publicly accessible server that we can access it from anywhere in the world.
 
-As per our prerequisites, you should have a Digital Ocean server. First, make a new directory on your server.
+As per our prerequisites, you should have a Digital Ocean server. First, make a new directory on your server. If you don't have one, use [this](https://m.do.co/c/5a7b87513ab0) referral link to get $100 Digital Ocean credit.
 
 ```bash
 $ mkdir ~/simple-crud
